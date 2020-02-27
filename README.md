@@ -1,4 +1,4 @@
-<img src="https://github.com/damiancipolat/node_js_developer_guide/blob/master/img/this-is-javascript.jpeg?raw=true" width="125px" align="right" />
+<img src="https://github.com/damiancipolat/node_js_developer_guide/blob/master/img/this-is-javascript.jpeg?raw=true" width="300px" align="right" />
 
 # Guide for the daily JavaScripter.
 This document is a summary of good programming practices in js in general.
