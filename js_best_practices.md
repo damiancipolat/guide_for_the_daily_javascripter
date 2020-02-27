@@ -812,4 +812,42 @@ Some interesting tips and commands to use in npm.
 
 **[⮬ back to top](#table-of-contents)**
 
+<a name="package"></a>
+## Package.json:
+ - **VERSION**:
+ 
+ Use the `version` attribute to save the current project version follow the SEMVER rules, http://semver.org
+ 
+  ```json
+   {
+    "name": "api",
+    "version": "1.0.0",
+    "description": "orders api",
+    "main": ""
+    }
+  ```
+  
+  > SEMVER rules:
+  **MAJOR**: version when you make incompatible API changes.
+  **MINOR**: version when you add functionality in a backwards-compatible manner.
+  **PATCH**: version when you make backwards-compatible bug fixes.
+
+
+ - **DEPENDENCIES:**
+ 
+ Make sure you are saving the dependencies modules in the **"devDependencies"** section.
+ 
+ - **SCRIPTS:**
+ 
+Its important to complete the script section of the package.json, the basic script should be:
+
+ ```sh
+npm start
+npm test
+npm deploy
+ ```
+ 
+**[⮬ back to top](#table-of-contents)**
+
+
 Have fun!  🛸🐧🐲👽👆👻👺
