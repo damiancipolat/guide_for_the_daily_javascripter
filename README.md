@@ -1,6 +1,6 @@
 <img src="https://github.com/damcipolat-recargapay/js_developer_guide/blob/master/img/js_logo.png?raw=true" width="125px" align="right" />
 
-# Guide for the daily Javascripter.
+# Guide for the daily JavaScripter.
 This document is a summary of good programming practices in js in general.
 
 Part of the document is based in Airbnb guideline, and other in profesional experience.
