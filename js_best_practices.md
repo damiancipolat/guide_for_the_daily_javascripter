@@ -849,5 +849,47 @@ npm deploy
  
 **[⮬ back to top](#table-of-contents)**
 
+<a name="recom"></a>
+## Recommendations:
+
+- Use npm mayor / npm minor things change the versions.
+- Set NODENV in production.
+- Split common code in modules.
+- Don't use sync function for i/o;
+- Use streams.
+- Communicate error using exceptions.
+- Try/catch if you can solve the exception.
+- Good use of promises.
+- Promise.all to paralellize always 
+- Wrap promise.all to avoid partial executions.
+- Async / await instead of promise.then
+- Don't use callbacksm replace them by Promise.
+- Avoid heavy nesting.
+- Avoid use else if.
+- Avoid nested if.
+- Avoid use global variables.
+- Don't abuse installing modules
+- Think first in use node core modules instead of search npm modules.
+- Create a logger wrapper instead of use console.log, (winston)
+- Create private npm modules for general purposes code used in different projects. Reutilizations.
+- Avoid the "core" patterns', the idea is avoid putting the entire business code of the application in a set of npm modules
+- Don't use class is better to focus in modules that export functions.
+- Externalize your config, make easy the test later.
+
+**Stacks**:
+Some recomendatios of modules.
+
+- For testing: Jest or Mocha / Chai / Proxyquire.
+- For logging: Winston.
+- For Api: Expressjs, Hapijs, Restify.
+- For SQL: Sequlize.
+- For Mongodb: Mongoose.
+- For Serverless: Serverless framework or AWS-CDK https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html
+- For request: node-fetch or axios.
+- For time: moment / moment-timezone.
+- For lint: es-lint.
+- For schema validation: Joi
+
+**[⮬ back to top](#table-of-contents)**
 
 Have fun!  🛸🐧🐲👽👆👻👺
