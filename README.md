@@ -1,6 +1,6 @@
 <img src="https://github.com/damiancipolat/node_js_developer_guide/blob/master/img/this-is-javascript.jpeg?raw=true" width="350px" align="right" />
 
-# Guide for the daily JavaScripter.
+# Guide for the daily JavaScripter
 This document is a summary of good programming practices in js in general.
 
 Part of the document is based in Airbnb guideline, and other in profesional experience.
