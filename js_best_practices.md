@@ -7,6 +7,8 @@ Part of the document is based in Airbnb guideline, and other in profesional expe
 
 https://github.com/airbnb/javascript
 
+The **NODE.JS** section is a summary of different readings and my own experience in the tecnology.
+
 <a name="table-of-contents"></a>
 ## Content list
 
@@ -28,6 +30,12 @@ https://github.com/airbnb/javascript
   - [Primitives](#primitives)
   - [Variables](#variables)
   - [TL;DR](#tldr)
+  
+## NODE.JS  
+
+- [NPM](#npm)
+- [package.json](#package)
+- [Recommendations](#recom)
 
 <a name="fp"></a>
 ## Paradigm - FP
@@ -771,6 +779,36 @@ Some points of how to handle and declare variables in javascript.
 - Use array spreads ... to copy arrays. (airbnb 4.3).
 - use spreads ... instead of, Array.from. (airbnb 4.4).
 - Use return statements in array method callbacks (airbnb 4.7).
+
+**[⮬ back to top](#table-of-contents)**
+
+<a name="npm"></a>
+## NPM:
+Some interesting tips and commands to use in npm.
+ 
+ #### `npm init`
+ Execute this command whenever you start a project from scratch
+ 
+ #### `npm install {dependency} --save`
+ Execute this command using the save parameter, when you need to install a new module, the save parameter record the dependecy in the package.json
+ 
+ #### `npm install {dependency} --save--dev`
+ Install a new dependency but only for development purposes, example unit testing.
+ 
+ #### `npm install`
+ Will install both "dependencies" and "devDependencies" from package.json.
+ 
+ #### `npm install --dev`
+ Run this command when you need to install only dev dependencys example into a ci/cd step to run test. Will only install "devDependencies" from package.json
+ 
+ #### `npm install --production`
+ Will only install "dependencies" from package.json.
+ 
+ #### `npm audit`
+ This command list all the security vulnerabilities of the dependencys installed in the package.json
+ 
+ #### `npm audit --fix`
+ Subcommand to automatically install compatible updates to vulnerable dependencies.
 
 **[⮬ back to top](#table-of-contents)**
 
