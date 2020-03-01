@@ -14,7 +14,7 @@ I am going to explain 6 ways on how to do this.
 
 <a name="ternary_operator"></a>
 ## 1) Ternary operator:
-We are talking about this "condition ? expr1 : expr2", very easy.
+We are talking about this "**condition ? expr1 : expr2**", very easy.
 
 #### Example 1:
 
